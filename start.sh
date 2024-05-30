@@ -25,3 +25,5 @@ echo 'LED scoreboard started.'
 
 # sudo crontab -e
 # @reboot cd /home/andrew/mlb-led-scoreboard/ && ./start.sh
+
+# sudo python3 ./main.py --led-gpio-mapping="adafruit-hat" --led-rows=32 --led-cols=64 --led-brightness=100 --led-slowdown-gpio=4 --led-rgb-sequence=RBG

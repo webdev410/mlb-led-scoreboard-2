@@ -12,7 +12,7 @@ fi
 
 echo 'Starting LED scoreboard...'
 
-sudo python3 main.py --led-gpio-mapping="adafruit-hat" --led-rows=32 --led-cols=64 --led-brightness=100 --led-slowdown-gpio=4 --led-rgb-sequence=RBG
+sudo main.py --led-gpio-mapping="adafruit-hat" --led-rows=32 --led-cols=64 --led-brightness=100 --led-slowdown-gpio=4 --led-rgb-sequence=RBG
 # sudo python3 ./main.py \
 # 	--led-gpio-mapping="adafruit-hat" \
 # 	--led-rows=32 \

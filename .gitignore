@@ -109,10 +109,10 @@ venv.bak/
 emulator_config.json
 
 # Ignore any customized coordinate configs
-coordinates/*.json
+# coordinates/*.json
 
 # Ignore any customized color configs
-colors/*.json
+# colors/*.json
 
 #
 submodules/

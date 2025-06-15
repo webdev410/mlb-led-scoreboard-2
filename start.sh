@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo ./install.sh
+# only needed the first time
+
+# sudo ./install.sh
 
 # --led-rows                Display rows. 16 for 16x32, 32 for 32x32. (Default: 32)
 # --led-cols                Panel columns. Typically 32 or 64. (Default: 32)

@@ -108,7 +108,7 @@ venv.bak/
 *.bak
 
 # Ignore our customized config.json
-/config*.json
+# /config*.json
 emulator_config.json
 
 # Ignore any customized coordinate configs
@@ -124,7 +124,6 @@ colors/*.json
 #
 submodules/
 configs/
-
 
 # Ignore logs
 logs.txt
